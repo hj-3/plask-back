@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker volumes
+.data/
+postgres_data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 다른 레포지토리 폴더 제외
+frontend/
+infra/
+plask-helm/
+node_modules/
+
+# 공통 제외 항목
+.env
+*.log
+postgres_data/
